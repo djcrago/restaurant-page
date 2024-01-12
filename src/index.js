@@ -1,3 +1,9 @@
-import pageLoad from "./page-load";
+import homePage from "./homePage";
+import menuPage from "./menuPage";
+import contactPage from "./contactPage";
 
-pageLoad();
+const content = document.querySelector('#content');
+
+homePage();
+
+export { content };
