@@ -11,12 +11,11 @@ const buttons = document.createElement('div');
 body.insertBefore(buttons, content);
 
 const homeBtn = createBtn('Home');
-buttons.appendChild(homeBtn);
-
 const menuBtn = createBtn('Menu');
-buttons.appendChild(menuBtn);
-
 const contactBtn = createBtn('Contact');
+
+buttons.appendChild(homeBtn);
+buttons.appendChild(menuBtn);
 buttons.appendChild(contactBtn);
 
 homePage();
